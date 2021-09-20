@@ -1,3 +1,5 @@
+#python3 auto.py v.02
+
 import pyautogui
 import time
 import pyautogui, sys
