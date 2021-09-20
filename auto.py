@@ -20,17 +20,21 @@ def function02():
     time.sleep(2)
     pyautogui.click(x=20, y=633)
     time.sleep(1)
+    pyautogui.moveTo(214, 147, 2, pyautogui.easeInQuad)
     pyautogui.click(x=214, y=147)
     time.sleep(1)
     pyautogui.write('ola', interval=0.25,) 
     time.sleep(1)
+    pyautogui.moveTo(679, 47, 2, pyautogui.easeInQuad)
     pyautogui.click(x=679, y=47)
     time.sleep(2)
+    pyautogui.moveTo(183, 386, 2, pyautogui.easeInQuad)
     pyautogui.click(x=183, y=386)
     time.sleep(2)
     #o codigo abaixo abre o terminal
     pyautogui.hotkey('ctrl', 'alt', 't')
     time.sleep(1)
+    pyautogui.moveTo(500, 300, 2, pyautogui.easeInQuad)
     pyautogui.click(x=500, y=300)
     time.sleep(1)
     pyautogui.write('ping 191.7.178.229', interval=0.25,)
@@ -45,9 +49,4 @@ if x == 1:
 
 if x == 2:
     function02()
-
-
-
-
-
 
