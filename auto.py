@@ -39,7 +39,7 @@ def function02():
     pyautogui.moveTo(500, 300, 2, pyautogui.easeInQuad)
     pyautogui.click(x=500, y=300)
     time.sleep(1)
-    pyautogui.write('ping 191.7.178.229', interval=0.25,)
+    pyautogui.write('ping 10.0.0.1', interval=0.25,)
     pyautogui.press('enter')
 
 print("1 ver localização do mouse")
