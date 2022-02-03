@@ -20,8 +20,6 @@ class color():
     NEGRITO = '\033[;1m'
     RESET = '\033[0m'
 
-print(color.VERDE_CLARO + "TESTE")
-  
 
     def function01():
         print(color.VERMELHO + 'Press Ctrl-C to quit.')
