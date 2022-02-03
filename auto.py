@@ -8,10 +8,23 @@ try:
     except ModuleNotFoundError:
         os.system("clear")
         print("instale o pyautogui com o pip")
+        
+        
+class color():
+    VERDE = '\033[92m'
+    VERMELHO = '\033[91m'
+    AMARELO = '\033[93m'
+    AZUL = '\033[1;34m'
+    MAGENTA = '\033[1;35m'
+    VERDE_CLARO = '\033[1;92m'
+    NEGRITO = '\033[;1m'
+    RESET = '\033[0m'
 
+print(color.VERDE_CLARO + "TESTE")
+  
 
     def function01():
-        print('Press Ctrl-C to quit.')
+        print(color.VERMELHO + 'Press Ctrl-C to quit.')
         try:
             while True:
                 x, y = pyautogui.position()
@@ -53,7 +66,7 @@ try:
             function01()
         except NameError:
             os.system("clear")
-            print("instale o pyautogui com o pip")
+            print(color.VERMELHO + "instale o pyautogui com o pip")
 
 
     if x == 2:
@@ -61,9 +74,9 @@ try:
             function02()
         except NameError:
             os.system("clear")
-            print("instale o pyautogui com o pip")
+            print(color.VERMELHO + "instale o pyautogui com o pip")
             
 except KeyboardInterrupt:
     os.system("clear")
-    print("o programa foi encerrado!!")
+    print(color.VERDE + "o programa foi encerrado!!")
 
