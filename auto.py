@@ -54,8 +54,8 @@ class color():
         pyautogui.write('teste', interval=0.25,)
         pyautogui.press('enter')'''
 
-    print("1 ver localização do mouse")
-    print("2 para executar automação")
+    print(color.AMARELO + "1 ver localização do mouse")
+    print(color.AMARELO + "2 para executar automação")
 
     x = int(input("digite um numero: "))
 
