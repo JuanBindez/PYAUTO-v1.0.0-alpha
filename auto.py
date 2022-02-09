@@ -54,7 +54,7 @@ class color():
         im2 = pyautogui.screenshot('my_screenshot.png')'''
      
     print(color.AMARELO + "1 ver localização do mouse")
-    print(color.AMARELO + "2 para executar automação")
+    print(color.AMARELO + "2 para executar automação" + color.RESET)
 
     x = int(input("digite um numero: "))
 
