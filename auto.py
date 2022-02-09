@@ -10,7 +10,7 @@ try:
         print("instale o pyautogui com o pip")
         
         
-class color():
+class Color():
     VERDE = '\033[92m'
     VERMELHO = '\033[91m'
     AMARELO = '\033[93m'
@@ -22,7 +22,7 @@ class color():
 
 
     def function01():
-        print(color.VERMELHO + 'Press Ctrl-C to quit.')
+        print(Color.VERMELHO + 'Press Ctrl-C to quit.')
         try:
             while True:
                 x, y = pyautogui.position()
@@ -53,8 +53,8 @@ class color():
         pyautogui.drag(30, 0, 2, button='right')   # drag the mouse left 30 pixels over 2 seconds while hold
         im2 = pyautogui.screenshot('my_screenshot.png')'''
      
-    print(color.AMARELO + "1 ver localização do mouse")
-    print(color.AMARELO + "2 para executar automação" + color.RESET)
+    print(Color.AMARELO + "1 ver localização do mouse")
+    print(Color.AMARELO + "2 para executar automação" + Color.RESET)
 
     x = int(input("digite um numero: "))
 
@@ -63,7 +63,7 @@ class color():
             function01()
         except NameError:
             os.system("clear")
-            print(color.VERMELHO + "instale o pyautogui com o pip")
+            print(Color.VERMELHO + "instale o pyautogui com o pip")
 
 
     if x == 2:
@@ -71,9 +71,9 @@ class color():
             function02()
         except NameError:
             os.system("clear")
-            print(color.AZUL + "instale o pyautogui com o pip")
+            print(Color.AZUL + "instale o pyautogui com o pip")
             
 except KeyboardInterrupt:
     os.system("clear")
-    print(color.VERDE + "o programa foi encerrado!!")
+    print(Color.VERDE + "o programa foi encerrado!!")
 
