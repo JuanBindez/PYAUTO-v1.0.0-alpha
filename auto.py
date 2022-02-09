@@ -34,26 +34,25 @@ class color():
 
 
     def function02():
-     '''pyautogui.moveTo(20, 633, 2, pyautogui.easeInQuad)
-        time.sleep(2)
-        pyautogui.click(x=20, y=633)
-        time.sleep(1)
-        pyautogui.click(x=214, y=147)
-        time.sleep(1)
-        pyautogui.write('ola', interval=0.25,) 
-        time.sleep(1)
-        pyautogui.click(x=679, y=47)
-        time.sleep(2)
-        pyautogui.click(x=183, y=386)
-        time.sleep(2)
-        #o codigo abaixo abre o terminal
+        '''pyautogui.press('enter')  # press the Enter key
+        pyautogui.press('f1')     # press the F1 key
+        pyautogui.press('left')   # press the left arrow key
         pyautogui.hotkey('ctrl', 'alt', 't')
-        time.sleep(1)
-        pyautogui.click(x=500, y=300)
-        time.sleep(1)
-        pyautogui.write('teste', interval=0.25,)
-        pyautogui.press('enter')'''
-
+        pyautogui.write('text', interval=0.25,)
+        pyautogui.press('enter')
+        pyautogui.scroll(10)   # scroll up 10 "clicks"
+        pyautogui.scroll(-10)  # scroll down 10 "clicks"
+        pyautogui.click(button='right')  # right-click the mouse
+        pyautogui.moveTo(100, 100, 2, pyautogui.easeInQuad)     # start slow, end fast
+        pyautogui.moveTo(100, 100, 2, pyautogui.easeOutQuad)    # start fast, end slow
+        pyautogui.moveTo(100, 100, 2, pyautogui.easeInOutQuad)  # start and end fast, slow in middle
+        pyautogui.moveTo(100, 100, 2, pyautogui.easeInBounce)   # bounce at the end
+        pyautogui.moveTo(100, 100, 2, pyautogui.easeInElastic)  # rubber band at the end
+        pyautogui.dragTo(100, 200, button='left')     # drag mouse to X of 100, Y of 200 while holding down left mouse button
+        pyautogui.dragTo(300, 400, 2, button='left')  # drag mouse to X of 300, Y of 400 over 2 seconds while holding down left mouse button
+        pyautogui.drag(30, 0, 2, button='right')   # drag the mouse left 30 pixels over 2 seconds while hold
+        im2 = pyautogui.screenshot('my_screenshot.png')'''
+     
     print(color.AMARELO + "1 ver localização do mouse")
     print(color.AMARELO + "2 para executar automação")
 
