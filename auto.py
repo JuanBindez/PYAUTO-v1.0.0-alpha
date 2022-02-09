@@ -71,7 +71,7 @@ class color():
             function02()
         except NameError:
             os.system("clear")
-            print(color.VERMELHO + "instale o pyautogui com o pip")
+            print(color.AZUL + "instale o pyautogui com o pip")
             
 except KeyboardInterrupt:
     os.system("clear")
