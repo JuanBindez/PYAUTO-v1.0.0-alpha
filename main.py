@@ -1,7 +1,11 @@
 '''
-Autor: www.github.com/JuanBindez
-Descrição: automação de açôes
+Author: www.github.com/JuanBindez
+Description: automate actions
+Python Version: 3.10
+year: 2022
+Local: Brazil
 '''
+
 try:
     import os
     try:
