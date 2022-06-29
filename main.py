@@ -1,4 +1,7 @@
-#python3 auto.py v.02
+'''
+Autor: JuanBindez
+Descrição: automação de açôes
+'''
 try:
     import os
     try:
