@@ -1,5 +1,5 @@
 '''
-Autor: JuanBindez
+Autor: www.github.com/JuanBindez
 Descrição: automação de açôes
 '''
 try:
