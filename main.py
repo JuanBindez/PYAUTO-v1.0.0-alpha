@@ -43,6 +43,7 @@ try:
 
 
     def local_mouse():
+        credits_author()
         print(Color.VERMELHO + 'Press Ctrl-C to quit.')
         try:
             while True:
