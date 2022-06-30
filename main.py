@@ -4,6 +4,7 @@ Description: automation
 Python Version: 3.10
 year: 2022
 Local: Brazil
+OS: Linux
 '''
 
 try:
@@ -25,6 +26,7 @@ try:
                             Python Version: 3.10
                             year: 2022
                             Local: Brazil
+                            OS: Linux
                             '''
         )
         
