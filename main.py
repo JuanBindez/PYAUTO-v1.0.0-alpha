@@ -17,6 +17,17 @@ try:
         print("precisamos instalar o pyautogui!, vamos instalar pra você")
         os.system("pip install pyautogui")
         
+    def credits_author():
+        print(
+                            '''
+                            Author: www.github.com/JuanBindez
+                            Description:
+                            Python Version: 3.10
+                            year: 2022
+                            Local: Brazil
+                            '''
+        )
+        
         
     class Color():
         VERDE = '\033[92m'
@@ -60,11 +71,11 @@ try:
         #pyautogui.dragTo(300, 400, 2, button='left')  # drag mouse to X of 300, Y of 400 over 2 seconds while holding down left mouse button
         #pyautogui.drag(30, 0, 2, button='right')   # drag the mouse left 30 pixels over 2 seconds while hold
         #im2 = pyautogui.screenshot('my_screenshot.png')
-     
-    print(Color.AMARELO + "1 ver localização do mouse")
-    print(Color.AMARELO + "2 para executar automação" + Color.RESET)
+    credits_author()
+    print(Color.AMARELO + "[1] ver localização do mouse")
+    print(Color.AMARELO + "[2] para executar automação" + Color.RESET)
 
-    x = int(input("digite um numero: "))
+    x = int(input("> "))
 
     if x == 1:
         try:
