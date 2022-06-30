@@ -1,6 +1,6 @@
 '''
 Author: www.github.com/JuanBindez
-Description: automate actions
+Description: automation
 Python Version: 3.10
 year: 2022
 Local: Brazil
@@ -21,7 +21,7 @@ try:
         print(
                             '''
                             Author: www.github.com/JuanBindez
-                            Description:
+                            Description: automation
                             Python Version: 3.10
                             year: 2022
                             Local: Brazil
