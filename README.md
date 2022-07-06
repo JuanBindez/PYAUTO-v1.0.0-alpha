@@ -1,0 +1,17 @@
+# AUTO-PYTHON-PyAutoGUI
+automação com python
+
+
+# GRAVA-TELA-PYTHON
+
+# pacotes necessários para rodar no Linux
+
+`python3 -m pip install pyautogui`
+
+## No Linux, além disso, você precisa instalar o aplicativo scrot, bem como o Tkinter:
+
+`sudo apt-get install scrot`
+
+`sudo apt-get install python3-tk`
+
+`sudo apt-get install python3-dev`
