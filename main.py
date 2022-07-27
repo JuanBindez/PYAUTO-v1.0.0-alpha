@@ -19,7 +19,6 @@ copies or substantial portions of the Software.
 Author: www.github.com/JuanBindez
 Description: automation
 Python Version: 3.10
-year: 2022
 Local: Brazil
 OS: Linux
 '''
