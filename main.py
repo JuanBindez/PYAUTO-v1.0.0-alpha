@@ -26,14 +26,15 @@ try:
         
     def credits_author():
         print(
-                            '''
-                            Author: www.github.com/JuanBindez
-                            Description: automation
-                            Python Version: 3.10
-                            year: 2022
-                            Local: Brazil
-                            OS: Linux
-                            '''
+            '''
+                     ____           _         _         ____       _ 
+                    |  _ \ _   _   / \  _   _| |_ ___  / ___|_   _(_)
+                    | |_) | | | | / _ \| | | | __/ _ \| |  _| | | | |
+                    |  __/| |_| |/ ___ \ |_| | || (_) | |_| | |_| | |
+                    |_|    \__, /_/   \_\__,_|\__\___/ \____|\__,_|_|  v 0.5
+                           |___/Copyright (c) 2022 Juan Carlos Bindez                             
+            
+            '''
         )
         
         
