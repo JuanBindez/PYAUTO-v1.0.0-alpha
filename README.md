@@ -1,4 +1,4 @@
-# PYAUTO
+# PYAUTO v1.0.0
 
 automação com python
 
