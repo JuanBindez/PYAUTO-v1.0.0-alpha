@@ -36,7 +36,7 @@ try:
         print("precisamos instalar o pyautogui!, vamos instalar pra você")
         os.system("pip install pyautogui")
         
-    def credits_author():
+    def banner_header():
         print(
             '''
                      ____           _         _ 
@@ -62,7 +62,7 @@ try:
 
 
     def local_mouse():
-        credits_author()
+        banner_header()
         print(Color.VERMELHO + 'Press Ctrl-C to quit.')
         try:
             while True:
@@ -93,7 +93,7 @@ try:
         #pyautogui.dragTo(300, 400, 2, button='left')  # drag mouse to X of 300, Y of 400 over 2 seconds while holding down left mouse button
         #pyautogui.drag(30, 0, 2, button='right')   # drag the mouse left 30 pixels over 2 seconds while hold
         #im2 = pyautogui.screenshot('my_screenshot.png')
-    credits_author()
+    banner_header()
     print(Color.AMARELO + "[1] ver localização do mouse")
     print(Color.AMARELO + "[2] para executar automação" + Color.RESET)
 
@@ -117,4 +117,4 @@ try:
 except KeyboardInterrupt:
     os.system("clear")
     print(Color.VERDE + "o programa foi encerrado!!")
-
+    
