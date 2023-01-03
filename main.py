@@ -1,7 +1,7 @@
 '''
 MIT License
 
-Copyright (c) 2022 Juan Carlos Bindez
+Copyright (c) 2022-2023 Juan Carlos Bindez
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -44,7 +44,7 @@ try:
                     | |_) | | | | / _ \| | | | __/ _ \
                     |  __/| |_| |/ ___ \ |_| | || (_) |
                     |_|    \__, /_/   \_\__,_|\__\___/  v 1.0.0
-                           |___/Copyright (c) 2022 Juan Carlos Bindez                             
+                           |___/Copyright (c) 2022-2023 Juan Bindez                             
             
             '''
         )
