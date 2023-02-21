@@ -24,7 +24,6 @@ SOFTWARE.
 Author: www.github.com/JuanBindez  <juanbindez780@gmail.com>
 '''
 
-
 try:
     import os
     try:
@@ -59,7 +58,6 @@ try:
         VERDE_CLARO = '\033[1;92m'
         NEGRITO = '\033[;1m'
         RESET = '\033[0m'
-
 
     def local_mouse():
         banner_header()
@@ -117,4 +115,3 @@ try:
 except KeyboardInterrupt:
     os.system("clear")
     print(Color.VERDE + "o programa foi encerrado!!")
-    
