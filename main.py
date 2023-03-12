@@ -71,7 +71,6 @@ try:
         except KeyboardInterrupt:
             print('\n')
 
-
     def action_set():
         #pyautogui.press('enter')  # press the Enter key
         #pyautogui.press('f1')     # press the F1 key
@@ -103,7 +102,6 @@ try:
         except NameError:
             os.system("clear")
             print(Color.VERMELHO + "instale o pyautogui com o pip")
-
 
     if x == 2:
         try:
